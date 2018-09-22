@@ -46,12 +46,12 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/lib/bootstrap/3.3.5/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.js",
-              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/lib/jquery/1.11.3/jquery.min.js",
+              "src/lib/bootstrap/3.3.5/js/bootstrap.min.js",
               "src/lib/preloader.min.js",
               "src/lib/modernizr.js",
               "src/lib/slippry.js",
