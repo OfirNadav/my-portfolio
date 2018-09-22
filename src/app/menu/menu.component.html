@@ -1,0 +1,35 @@
+<div class="cd-nav-trigger" (click)="toggleNavigation($event)">
+  <span>Menu</span>
+  <span class="cd-nav-icon"></span>
+  <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157"
+            stroke-dashoffset="157"></circle>
+  </svg>
+</div>
+<div id="cd-nav" class="cd-nav index bgcover">
+  <div class="cd-navigation-wrapper bg-xs">
+    <div class="cd-half-block">
+      <h2><img src="assets/img/sep.gif" alt="separator"><br/>Menu</h2>
+
+      <nav>
+        <ul class="cd-primary-nav">
+          <li><a (click)="goTo()" [ngClass]="{'selected': isSelected('')}">Home</a></li>
+          <li><a (click)="goTo('portfolio')" [ngClass]="{'selected': isSelected('portfolio')}">Portfolio</a></li>
+          <li><a (click)="goTo('about')" [ngClass]="{'selected': isSelected('about')}">About</a></li>
+        </ul>
+      </nav>
+    </div><!-- .cd-half-block -->
+
+    <div class="cd-half-block">
+      <address>
+        <ul class="cd-contact-info">
+          <li><a href="mailto:ofir.nadav@gmail.com">ofir.nadav@gmail.com</a></li>
+          <li>(972)53-6789-339</li>
+          <li>
+            <span>Rehovot, Israel</span>
+          </li>
+        </ul>
+      </address>
+    </div> <!-- .cd-half-block -->
+  </div> <!-- .cd-navigation-wrapper -->
+</div> <!-- .cd-nav -->
