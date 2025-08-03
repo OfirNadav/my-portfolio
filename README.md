@@ -1,6 +1,6 @@
-# MyPortfolio
+# My Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8 and updated to version 19.2.14.
 
 ## Development server
 
