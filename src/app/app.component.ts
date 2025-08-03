@@ -1,16 +1,15 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { AppService } from './app.service';
+import { Component, OnInit, ViewEncapsulation } from "@angular/core";
+import { AppService } from "./app.service";
 
 @Component({
-  selector: 'onv-root',
+  selector: "onv-root",
   encapsulation: ViewEncapsulation.None,
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"],
+  standalone: false,
 })
 export class AppComponent implements OnInit {
-
-  constructor(private appService: AppService) {
-  }
+  constructor(private appService: AppService) {}
 
   ngOnInit() {
     // hide #back-top first
@@ -23,6 +22,4 @@ export class AppComponent implements OnInit {
   scrollToTop() {
     this.appService.scrollToTop();
   }
-
-
 }
